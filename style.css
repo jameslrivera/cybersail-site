@@ -38,7 +38,8 @@ p{margin:0 0 .8em}
 .hero .tag{font-size:clamp(18px,2.4vw,24px);color:var(--cyan-soft)}
 .hero .sub{max-width:620px;margin:0 auto 28px;color:var(--muted);font-size:17px}
 .hero .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:22px}
-.hero-logo{filter:drop-shadow(0 0 16px rgba(34,211,238,.5));margin-bottom:12px}
+.hero-logo{width:min(260px,60vw);height:auto;filter:drop-shadow(0 0 22px rgba(34,211,238,.45));margin-bottom:4px}
+.brand img{border-radius:8px}
 .circuit{position:absolute;left:0;top:0;bottom:0;width:160px;pointer-events:none;
   background:
     linear-gradient(var(--cyan),var(--cyan)) 60px 0/4px 100% no-repeat,
